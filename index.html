@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio WEBSITE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#intro">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section id="intro" class="bg-secondary text-white py-5">
+            <div class="container text-center">
+                <h1 class="display-3">Welcome to My Portfolio</h1>
+                <p class="lead">Crafting digital experiences through design and technology.</p>
+            </div>
+        </section>
+        
+        
+        <section id="about" class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p><section id="about">
+                            <h2 style="text-align: center;"><strong>About Me</strong></h2>
+                            <div class="about-content">
+                                <img src="Green Gradient Minimalist Simple Instagram Profile Picture.png" alt="Profile Picture">
+                                <p>
+                                    Hi there! I'm Aleesha Shamins, a passionate web developer based in India. I have a strong
+                                    interest in creating visually appealing and functional websites that leave a lasting impression.
+                                </p>
+                            
+                                <p>
+                                    I love taking on new challenges and turning ideas into reality through code. Whether it's crafting
+                                    responsive designs, optimizing performance, or diving into the latest web development trends,
+                                    I'm always eager to learn and grow.
+                                </p>
+                                <p>
+                                    Feel free to explore my portfolio to see some of my recent projects and don't hesitate to reach out
+                                    if you have any questions or collaboration opportunities!
+                                </p>
+                            </div>
+                        </section>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2 style="text-align: center;"><strong>SKILLS</strong></h2>
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level html"></div>
+                </div>
+            </div>
+           
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css"></div>
+                </div>
+            </div>
+         <div class="skill">
+                <h3>JAVASCRIPT</h3>
+                <div class="skill-bar">
+                    <div class="skill-level js"></div>
+                </div>
+            </div>
+        </section>
+        
+
+        
+        <section id="testimonials" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4"><strong>PROJECTS</strong></h2>
+                    <div class="project">
+                        <div class="project-info">
+                            <h3>Project 1: Build.myweb WEBSITE</h3>
+                            <a href="https://asiyaah.github.io/bootstrap_final/"><button style=" background-color:rgb(193, 224, 244);color: rgb(0, 0, 0); border-radius: 10px;">VIEW</button></button></a>
+                            <p>Build.myweb website</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-info">
+                            <h3>Project 2: EMI CALCULATOR</h3>
+                            <a href=" https://aleeshashamins.github.io/js3/"><button style=" background-color:rgb(193, 224, 244);color: rgb(0, 0, 0);border-radius: 10px;">VIEW</button></button></a>
+                            <p>A website to calculate EMI .</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-info">
+                            <h3>Project 3: SUM CALCULATOR</h3>
+                            <a href="https://aleeshashamins.github.io/js2/ "><button style=" background-color:rgb(193, 224, 244);color: rgb(0, 0, 0);border-radius: 10px;">VIEW</button></button></a>
+                            <p>A website to calculate sum.</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-info">
+                            <h3>Project 4: RANDOM DICE ROLLER</h3>
+                            <a href=" https://aleeshashamins.github.io/js1/"><button style=" background-color:rgb(193, 224, 244);color: rgb(0, 0, 0);border-radius: 10px;">VIEW</button></button></a>
+                            <p>Roll a dice game.</p>
+                        </div>
+                    </div>
+            </div>   
+        </section>
+        
+        <section id="contact">
+            <h2 style="text-align: center;"><strong>Contact Me</strong></h2>
+            <form id="contact-form" action="contact.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        
+        
+    </main>
+
+    <footer>
+        
+        <footer class="bg-light text-grey py-4">
+            <div class="container text-center">
+                <p>&copy; 2024 Aleesha</p>
+            </div>
+        </footer>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
